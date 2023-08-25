@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  background-color: #ffff;
+  width: 353px;
+  border-radius: 30px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.img-profile {
+  margin: 0 auto;
+  position: relative;
+  top: -76px;
+  border-radius: 100%;
+}
+.details{
+  width: 290px;
+  height: 30px;
+}
+.details h2 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: -60px;
+}
+.details p {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+.section-button {
+  font-weight: 900;
+  font-size: 18px;
+}
+.buton{
+  width: 230px;
+  height: 48px;
+  top: 69px;
+  left: -149px;
+  border-radius: 12px;
+  background-color: #046BA5;
+  color: white;
+  font: Roboto;
+  font-weight: 800;
+  size: 18px;
+  line-height: 21.09px;
+  align-items: center;
+}
+.icon{
+  width: 51.12px;
+  height: 48.43px;
+  top: 68.61px;
+  left: 101.77px;
+  border-radius: 12px;
+  background-color: rgba(4, 107, 165, 0.2);
+}
