@@ -10,7 +10,7 @@ body {
   width: 100vw;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto;
 }
 .card {
   background-color: #ffff;
